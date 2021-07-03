@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@+id/kiloText"
         app:layout_constraintTop_toTopOf="@+id/kiloText"
-
+        android:layout_marginLeft="5dp"/>
 
 
 
