@@ -39,6 +39,7 @@
         android:id="@+id/milesInput"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/mileText"
 
 
 
