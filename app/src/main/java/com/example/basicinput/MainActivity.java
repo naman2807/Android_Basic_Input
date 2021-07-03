@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Button kmToMilesButton = findViewById(R.id.buttonConvKmToMiles);
         Button milesToKmButton = findViewById(R.id.buttonConvMilesToKm);
         EditText kmText = findViewById(R.id.kiloInput);
+        String km = kmText.getText().toString();
 
     }
 }
