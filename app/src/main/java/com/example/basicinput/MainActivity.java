@@ -27,5 +27,6 @@ public class MainActivity extends AppCompatActivity {
         EditText kmText = findViewById(R.id.kiloInput);
         String km = kmText.getText().toString();
         EditText mileText = findViewById(R.id.milesInput);
+        String miles = mileText.getText().toString();
     }
 }
