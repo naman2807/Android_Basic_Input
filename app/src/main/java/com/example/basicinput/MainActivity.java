@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button kmToMilesButton = findViewById(R.id.buttonConvKmToMiles);
-        decrement.setClickable(false);
+        Button milesToKmButton = findViewById(R.id.buttonConvMilesToKm);
 
     }
 }
