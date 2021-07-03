@@ -47,6 +47,7 @@
         android:id="@+id/buttonConvMilesToKm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Convert Miles To Kilometer"
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
