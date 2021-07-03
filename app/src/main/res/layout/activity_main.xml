@@ -16,6 +16,7 @@
         android:textSize="30dp"/>
 
     <EditText
+        android:id="@+id/kiloInput"
 
 
 
