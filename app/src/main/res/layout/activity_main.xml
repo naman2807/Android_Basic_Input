@@ -51,6 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/milesInput"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
