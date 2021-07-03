@@ -37,7 +37,7 @@
     
     <EditText
         android:layout_width="100dp"
-        android:layout_height=""
+        android:layout_height="wrap_content"
 
 
 
