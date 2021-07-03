@@ -36,6 +36,7 @@
         android:layout_marginTop="20dp"/>
     
     <EditText
+        android:id="@+id/milesInput"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
 
