@@ -17,11 +17,15 @@
 
     <EditText
         android:id="@+id/kiloInput"
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@+id/kiloText"
         app:layout_constraintTop_toTopOf="@+id/kiloText"
         android:layout_marginLeft="5dp"/>
+    
+    <TextView
+        android:layout_width=""
+        android:layout_height=""
 
 
 
