@@ -17,6 +17,7 @@
 
     <EditText
         android:id="@+id/kiloInput"
+        android:layout_width="200dp"
 
 
 
