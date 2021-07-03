@@ -13,6 +13,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="Kilometers:"
+        android:textSize="30dp"/>
+
 
 
 
