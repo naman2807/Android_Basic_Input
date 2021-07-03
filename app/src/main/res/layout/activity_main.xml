@@ -15,6 +15,7 @@
         android:text="Kilometers:"
         android:textSize="30dp"/>
 
+    <EditText
 
 
 
