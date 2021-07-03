@@ -24,7 +24,7 @@
         android:layout_marginLeft="5dp"/>
     
     <TextView
-        android:layout_width=""
+        android:layout_width="wrap_content"
         android:layout_height=""
 
 
