@@ -7,7 +7,8 @@
 
     <TextView
         android:id="@+id/kiloText"
-        />
+        android:layout_width="wrap_content"
+
 
 
 
