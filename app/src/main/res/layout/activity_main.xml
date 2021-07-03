@@ -59,6 +59,7 @@
         android:layout_height="wrap_content"
         android:text="Convert Kilometers To Miles"
         app:layout_constraintTop_toBottomOf="@+id/buttonConvMilesToKm"
+        app:layout_constraintLeft_toLeftOf="parent"
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
