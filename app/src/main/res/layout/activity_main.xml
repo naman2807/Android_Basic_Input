@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toRightOf="@+id/kiloText"
         app:layout_constraintTop_toTopOf="@+id/kiloText"
-        android:layout_marginLeft="5dp"/>
+        android:layout_marginLeft="28dp"/>
     
     <TextView
         android:id="@+id/mileText"
@@ -41,6 +41,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBaseline_toBaselineOf="@+id/mileText"
         app:layout_constraintLeft_toRightOf="@+id/mileText"
+        android:layout_marginLeft="100dp"/>
 
 
 
