@@ -16,8 +16,6 @@ import java.text.NumberFormat;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    private int quantity = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
         String km = kmText.getText().toString();
         EditText mileText = findViewById(R.id.milesInput);
         String miles = mileText.getText().toString();
+        kmToMilesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
