@@ -33,6 +33,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="Miles:"
         android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
 
 
 
