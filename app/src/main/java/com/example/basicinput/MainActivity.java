@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.basicinput.R;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
 /**
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 double km = Double.parseDouble(kmText.getText().toString());
                 EditText mileText = findViewById(R.id.milesInput);
                 double miles = km * 0.62137;
+                DecimalFormat format = new DecimalFormat("##.##");
             }
         });
     }
