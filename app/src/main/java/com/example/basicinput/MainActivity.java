@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 EditText mileText = findViewById(R.id.milesInput);
+                EditText kmText = findViewById(R.id.kiloInput);
 
             }
         });
