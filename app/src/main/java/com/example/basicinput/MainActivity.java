@@ -22,14 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button kmToMilesButton = findViewById(R.id.buttonConvKmToMiles);
         Button milesToKmButton = findViewById(R.id.buttonConvMilesToKm);
-        EditText kmText = findViewById(R.id.kiloInput);
-        String km = kmText.getText().toString();
-        EditText mileText = findViewById(R.id.milesInput);
-        String miles = mileText.getText().toString();
         kmToMilesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                EditText kmText = findViewById(R.id.kiloInput);
+                double km = Double.parseDouble(kmText.getText().toString());
+                EditText mileText = findViewById(R.id.milesInput);
             }
         });
     }
