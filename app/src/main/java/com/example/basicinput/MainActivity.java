@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText mileText = findViewById(R.id.milesInput);
                 double miles = km * 0.62137;
                 DecimalFormat format = new DecimalFormat("##.##");
+                mileText.setText(format.format(miles));
             }
         });
     }
