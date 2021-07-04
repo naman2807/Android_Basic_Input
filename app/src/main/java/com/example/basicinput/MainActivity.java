@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText kmText = findViewById(R.id.kiloInput);
                 double km = Double.parseDouble(kmText.getText().toString());
                 EditText mileText = findViewById(R.id.milesInput);
+                double miles = km * 0.62137;
             }
         });
     }
