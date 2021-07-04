@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 EditText mileText = findViewById(R.id.milesInput);
                 EditText kmText = findViewById(R.id.kiloInput);
-                double km = Double.parseDouble(mileText.getText().toString());
-
+                double miles = Double.parseDouble(mileText.getText().toString());
+                double km = miles / 0.62137;
             }
         });
 
